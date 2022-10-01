@@ -13,7 +13,7 @@ export const getWeatherData = (query : string, unit: string) => {
   catch (error) {
     throw (error);
   }
-  return fetch(url).then((res) => res.json());
+ 
 };
 
 export const getWeatherDataLocation = (lat : number, long: number) => {
@@ -26,7 +26,7 @@ export const getWeatherDataLocation = (lat : number, long: number) => {
   catch (error) {
     throw (error);
   }
-  return fetch(url).then((res) => res.json());
+
 };
 
 

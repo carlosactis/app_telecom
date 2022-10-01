@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { ToastContainer, toast } from 'react-toastify';
+import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export interface IInputProps {

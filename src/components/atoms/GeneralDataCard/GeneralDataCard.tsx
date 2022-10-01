@@ -15,10 +15,10 @@ const GeneralDataCard : FC<ITemperatureCard> = ({icons, title, size, value, unit
 
 return (
     <>
-    {icons == 'WiDaySunny' ? <WiDaySunny size={size} /> : null}
-    {icons == 'WiMoonAltNew' ? <WiMoonAltNew size={size} /> : null}
-    {icons == 'WiThermometerExterior' ? <WiThermometerExterior size={size} /> : null}
-    {icons == 'WiThermometer' ? <WiThermometer size={size} /> : null}
+    {icons === 'WiDaySunny' ? <WiDaySunny size={size} /> : null}
+    {icons === 'WiMoonAltNew' ? <WiMoonAltNew size={size} /> : null}
+    {icons === 'WiThermometerExterior' ? <WiThermometerExterior size={size} /> : null}
+    {icons === 'WiThermometer' ? <WiThermometer size={size} /> : null}
     <p className="font-light text-sm">{title}: {value} {unit}</p>
     <p className="font-light">|</p>
 

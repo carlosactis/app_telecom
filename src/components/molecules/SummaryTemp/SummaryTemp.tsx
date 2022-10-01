@@ -1,6 +1,6 @@
 import { WeatherData } from "../../types/modeule"
 import TemperatureCard from "../../atoms/TemperatureCard/TemperatureCard";
-import { stringify } from "querystring";
+
 
 const SummaryTemp = ({data} : WeatherData) => {
   const humidity :string = String(data.list[0].main.humidity)

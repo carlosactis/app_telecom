@@ -16,9 +16,9 @@ const TemperatureCard : FC<ITemperatureCard> = ({icons, title, size, value, unit
 return (
 
         <div className="flex justify-start items-center text-sm">
-            {icons == "WiThermometerExterior" ? <WiThermometerExterior size={size} /> : null}
-            {icons == "WiHumidity" ? <WiHumidity size={size} /> : null}
-            {icons == "WiStrongWind" ? <WiStrongWind size={size} /> : null}
+            {icons === "WiThermometerExterior" ? <WiThermometerExterior size={size} /> : null}
+            {icons === "WiHumidity" ? <WiHumidity size={size} /> : null}
+            {icons === "WiStrongWind" ? <WiStrongWind size={size} /> : null}
                 {title}
             <span className="font-medium ml-1" > {value} {unit} </span>
         </div>

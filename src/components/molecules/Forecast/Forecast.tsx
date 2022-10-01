@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 import { FC } from "react";
 import ForecastCard from "../../atoms/ForecastCard/ForecastCard"
-import { List, RootObject} from "../../types/modeule"
+import { RootObject} from "../../types/modeule"
 
 export interface IForecastProps {
     title: string;
